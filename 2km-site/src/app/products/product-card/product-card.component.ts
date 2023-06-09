@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-card.component.css']
 })
 export class ProductCardComponent implements OnInit {
+  Product: any = {
+    "Id": 1,
+    "Code": "2KM0001",
+    "Size": "small",
+    "Price": 120
+  }
 
   constructor() { }
 
