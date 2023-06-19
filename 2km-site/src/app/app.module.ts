@@ -6,6 +6,13 @@ import { ProductCardComponent } from './products/product-card/product-card.compo
 import { ProductListComponent } from './products/product-list/product-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SellingService } from './services/selling.service';
+import { Routes, RouterModule } from '@angular/router';
+import { AboutComponent } from './about/about.component';
+
+const appRoutes: Routes = [
+  { path: 'about-us', component: AboutComponent },
+  { path: '', component: ProductListComponent },
+];
 
 @NgModule({
   declarations: [
@@ -13,8 +20,9 @@ import { SellingService } from './services/selling.service';
     ProductCardComponent,
     ProductListComponent,
     NavBarComponent,
+    AboutComponent,
   ],
-  imports: [BrowserModule, HttpClientModule],
+  imports: [BrowserModule, HttpClientModule, RouterModule.forRoot(appRoutes)],
   providers: [SellingService],
   bootstrap: [AppComponent],
 })
