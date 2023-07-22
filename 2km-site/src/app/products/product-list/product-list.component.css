@@ -10,4 +10,9 @@
 .card-style {
   background: white;
   border-radius: 10px;
+  height: 45vh;
+}
+
+.card-img-top {
+  height: 40vh;
 }
