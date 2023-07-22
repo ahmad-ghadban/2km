@@ -36,3 +36,13 @@
 .animate {
   transition: all 0.3s ease-in-out;
 }
+
+.code {
+  font-size: 30px;
+}
+.size {
+  font-size: 25px;
+}
+.price {
+  font-size: 25px;
+}

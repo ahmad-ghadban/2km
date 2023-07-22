@@ -1,0 +1,19 @@
+.navbar-brand {
+  padding-left: 15px;
+}
+
+.nav-link {
+  font-size: 22px;
+}
+
+.navbar {
+  background-color: rgb(206, 203, 203);
+  border-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+
+.navbar-logo {
+  height: 70px;
+  width: 70px;
+}

@@ -34,5 +34,11 @@
     "Code": "2KM0006",
     "Size": "small",
     "Price": 180
+  },
+  {
+    "Id": 7,
+    "Code": "2KM0007",
+    "Size": "small",
+    "Price": 180
   }
 ]

@@ -8,10 +8,12 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SellingService } from './services/selling.service';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { ProductDetailComponent } from './products/product-detail/product-detail.component';
 
 const appRoutes: Routes = [
   { path: 'about-us', component: AboutComponent },
   { path: '', component: ProductListComponent },
+  { path: 'product-detail/:id', component: ProductDetailComponent },
 ];
 
 @NgModule({
@@ -21,6 +23,7 @@ const appRoutes: Routes = [
     ProductListComponent,
     NavBarComponent,
     AboutComponent,
+    ProductDetailComponent,
   ],
   imports: [BrowserModule, HttpClientModule, RouterModule.forRoot(appRoutes)],
   providers: [SellingService],

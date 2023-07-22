@@ -3,7 +3,7 @@
     <img class="card-img-top" src="assets/images/metal_default.png" />
     <ul class="list-inline text-center member-icons animate">
       <li class="list-inline-item">
-        <button class="btn btn-primary">
+        <button class="btn btn-primary" (click)="reRoute()">
           <i class="fa-solid fa-pen-to-square"></i>
         </button>
       </li>
@@ -14,9 +14,9 @@
       </li>
     </ul>
   </div>
-  <div class="card-body p-2">
-    <h1>{{ product.Code }}</h1>
-    <h2>{{ product.Size }}</h2>
-    <h3>{{ product.Price }}</h3>
+  <div class="card-body p-1">
+    <h1 class="code">{{ product.Code }}</h1>
+    <h2 class="size">{{ product.Size }}</h2>
+    <h3 class="price">{{ product.Price }}</h3>
   </div>
 </div>
