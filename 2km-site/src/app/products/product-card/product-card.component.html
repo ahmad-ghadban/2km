@@ -1,10 +1,14 @@
 <div class="card" (click)="reRoute()">
   <div class="card-img-wrapper">
-    <img class="card-img-top" src="assets/images/metal_default.png" />
+    <img
+      class="card-img-top"
+      src="assets/images/{{ product?.image }}.png"
+      onerror="this.onerror=null;this.src='assets/images/no_image.png';"
+    />
   </div>
   <div class="card-body p-1">
     <h1 class="code">{{ product.Code }}</h1>
     <h2 class="size">{{ product.Size }}</h2>
-    <h3 class="price">{{ product.Price }}</h3>
+    <h3 class="price">${{ product.Price.toFixed(2) }}</h3>
   </div>
 </div>
