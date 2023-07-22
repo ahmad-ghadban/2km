@@ -14,6 +14,7 @@ const appRoutes: Routes = [
   { path: 'about-us', component: AboutComponent },
   { path: '', component: ProductListComponent },
   { path: 'product-detail/:id', component: ProductDetailComponent },
+  { path: '**', component: ProductListComponent },
 ];
 
 @NgModule({

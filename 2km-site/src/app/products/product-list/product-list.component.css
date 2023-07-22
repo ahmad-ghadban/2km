@@ -6,3 +6,8 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
+.card-style {
+  background: white;
+  border-radius: 10px;
+}
