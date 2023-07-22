@@ -2,19 +2,20 @@
   <div class="image">
     <img
       class="navbar-logo"
-      src="assets/images/{{ this.product?.image }}.png"
+      src="assets/images/{{ product?.image }}.png"
+      onerror="this.onerror=null;this.src='assets/images/no_image.png';"
     />
   </div>
 
   <div class="content">
-    <h2>{{ this.product?.Code }}</h2>
+    <h2>{{ product?.Code }}</h2>
     <span><!-- line here --></span>
-    <h4>Size: {{ this.product?.Size }}</h4>
-    <h4>Weight: {{ this.product?.Weight }}</h4>
+    <h4>Size: {{ product?.Size }}</h4>
+    <h4>Weight: {{ product?.Weight }}</h4>
     <span><!-- line here --></span>
-    <h3>FOB Unit Price: ${{ this.product?.FOB.toFixed(2) }}</h3>
+    <h3>FOB Unit Price: ${{ product?.FOB.toFixed(2) }}</h3>
     <br />
-    <h3>Unit Price: ${{ this.product?.Price.toFixed(2) }}</h3>
+    <h3>Unit Price: ${{ product?.Price.toFixed(2) }}</h3>
   </div>
 </section>
 <br /><br /><br /><br /><br />
