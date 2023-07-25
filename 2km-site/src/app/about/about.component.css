@@ -120,13 +120,13 @@ section {
   }
   .image {
     height: 52vh;
-    width: 49vh;
+    width: 48vh;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
   }
   .content {
     height: 53vh;
-    width: 49vh;
+    width: 48vh;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
   }
