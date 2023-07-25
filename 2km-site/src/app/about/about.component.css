@@ -126,6 +126,7 @@ section {
   }
   .content {
     height: 53vh;
+    width: 44vh;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
   }
