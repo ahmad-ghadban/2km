@@ -112,23 +112,26 @@ section {
 
 /*****************/
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   section {
     grid-template-columns: 1fr;
     width: 100%;
     border-radius: none;
   }
   .image {
-    height: 100vh;
-    border-radius: none;
+    height: 52vh;
+    width: 44vh;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
   .content {
-    height: 100vh;
-    border-radius: none;
+    height: 53vh;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
   }
   .content h2 {
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .content span {
     margin: 20px 0;
@@ -160,4 +163,12 @@ section {
   text-decoration: none;
   color: #000;
   font-weight: bold;
+}
+
+@media all and (max-width: 600px) {
+  .image img {
+    height: 40vh;
+    width: 35vh;
+    margin: 53px auto;
+  }
 }
