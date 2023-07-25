@@ -14,6 +14,21 @@
 }
 
 .navbar-logo {
-  height: 70px;
-  width: 70px;
+  height: 5rem;
+  width: 5rem;
+}
+
+.navbar-toggler {
+  margin-right: 15px;
+}
+
+.items {
+  flex-direction: row;
+}
+.home-style {
+  margin-right: 1rem;
+}
+
+.about-style {
+  margin-right: 8rem;
 }

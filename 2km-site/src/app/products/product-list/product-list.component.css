@@ -15,3 +15,9 @@
 .card-img-top {
   height: 40vh;
 }
+
+@media all and (max-width: 600px) {
+  .list-style {
+    width: 50%;
+  }
+}
