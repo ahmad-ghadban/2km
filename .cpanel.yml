@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/y60lcjfzq1g5/repositories/2km/2km-site/src
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
